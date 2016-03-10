@@ -7,8 +7,12 @@ html {
     background: #2d7598;
 }
 
+body {
+    font-family: 'Amatic SC', cursive;
+}
+
 nav ul li {
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     position: relative;
     left: 30px;
     font-size: 25px;
@@ -76,7 +80,7 @@ section#overlay {
     top: 0px;
     left: 0px;
     font-size: 20px;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     color: white;
     width: 0%;
     height: 100%;
@@ -87,6 +91,8 @@ section#overlay p {
     text-align: center;
     position: relative;
     top: 200px;
+    width: 350px;
+    left: 25px;
     visibility: hidden;
 }
 
@@ -108,7 +114,6 @@ section#navOverlay {
     top: 0px;
     left: 0px;
     font-size: 40px;
-    font-family: SUNN;
     color: white;
     width: 0%;
     height: 100%;
@@ -134,33 +139,33 @@ hr {
 h4 {
     position: absolute;
     top: 110px;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 30px;
     color: white;
-    left: 80px;
+    left: 50px;
 }
 
 h5 {
     position: absolute;
     top: 110px;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 30px;
     color: white;
-    left: 80px;
+    left: 50px;
 }
 
 section#questionOne p {
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
 }
 
 section#questionTwo h6 {
     color: white;
     position: absolute;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 30px;
-    left: 140px;
+    left: 120px;
     top: 110px;
 }
 
@@ -214,7 +219,7 @@ section#questionTwo h6 {
 
 section#questionTwo p {
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
     visibility: hidden;
 }
@@ -250,30 +255,30 @@ img#west {
 #qtwoAnswerOne {
     position: absolute;
     top: 280px;
-    left: 100px;
+    left: 90px;
 }
 
 #qtwoAnswerTwo {
     position: absolute;
     top: 280px;
-    left: 235px;
+    left: 225px;
 }
 
 #qtwoAnswerFour {
     position: absolute;
     top: 430px;
-    left: 230px;
+    left: 220px;
 }
 
 #qtwoAnswerThree {
     position: absolute;
     top: 430px;
-    left: 100px;
+    left: 90px;
 }
 
 section#questionThree p {
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
     visibility: hidden;
 }
@@ -315,13 +320,13 @@ img#expensive {
 #qthreeAnswerTwo {
     position: absolute;
     top: 280px;
-    left: 210px;
+    left: 195px;
 }
 
 #qthreeAnswerFour {
     position: absolute;
     top: 430px;
-    left: 235px;
+    left: 225px;
 }
 
 #qthreeAnswerThree {
@@ -333,16 +338,16 @@ img#expensive {
 section#questionFour h6 {
     color: white;
     position: absolute;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 30px;
-    left: 80px;
+    left: 50px;
     top: 110px;
     visibility: hidden;
 }
 
 section#questionFour p {
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
     visibility: hidden;
 }
@@ -378,13 +383,13 @@ img#none {
 #qfourAnswerOne {
     position: absolute;
     top: 280px;
-    left: 100px;
+    left: 90px;
 }
 
 #qfourAnswerTwo {
     position: absolute;
     top: 280px;
-    left: 243px;
+    left: 236px;
 }
 
 #qfourAnswerFour {
@@ -402,16 +407,16 @@ img#none {
 section#questionFive h6 {
     color: white;
     position: absolute;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 30px;
-    left: 105px;
+    left: 85px;
     top: 110px;
     visibility: hidden;
 }
 
 section#questionFive p {
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
     visibility: hidden;
 }
@@ -489,7 +494,7 @@ section#picture {
 section#like p {
     visibility: hidden;
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
 }
 
@@ -518,7 +523,7 @@ section#picture2 {
 section#like2 p {
     visibility: hidden;
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
 }
 
@@ -547,7 +552,7 @@ section#picture3 {
 section#like3 p {
     visibility: hidden;
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
 }
 
@@ -570,7 +575,7 @@ p#no3 {
 section#results h3 {
     color: white;
     position: absolute;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 30px;
     left: 140px;
     top: 110px;
@@ -579,7 +584,7 @@ section#results h3 {
 section#results ol {
     color: white;
     position: absolute;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
     top: 170px;
     left: 50px;
@@ -600,7 +605,7 @@ section#deal p {
     color: white;
     position: absolute;
     background: #dead64;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 15px;
     padding: 10px;
     top: 170px;
@@ -739,7 +744,7 @@ section#thirdCar {
 section#northResults h6 {
     color: white;
     position: absolute;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 30px;
     left: 105px;
     top: 110px;
@@ -748,7 +753,7 @@ section#northResults h6 {
 
 section#northResults p {
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
     visibility: hidden;
     position: relative;
@@ -759,7 +764,7 @@ section#northResults p {
 section#southResults h6 {
     color: white;
     position: absolute;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 30px;
     left: 105px;
     top: 110px;
@@ -768,7 +773,7 @@ section#southResults h6 {
 
 section#southResults p {
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
     visibility: hidden;
     position: relative;
@@ -779,7 +784,7 @@ section#southResults p {
 section#westResults h6 {
     color: white;
     position: absolute;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 30px;
     left: 105px;
     top: 110px;
@@ -788,7 +793,7 @@ section#westResults h6 {
 
 section#westResults p {
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
     visibility: hidden;
     position: relative;
@@ -799,7 +804,7 @@ section#westResults p {
 section#carResults h6 {
     color: white;
     position: absolute;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 30px;
     left: 105px;
     top: 110px;
@@ -808,7 +813,7 @@ section#carResults h6 {
 
 section#carResults p {
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     font-size: 25px;
     visibility: hidden;
     position: relative;

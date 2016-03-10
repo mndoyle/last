@@ -3,17 +3,12 @@
     padding: 0;
 }
 
-@font-face {
-    font-family: 'SUNN';
-    src: local('SUNN'), url("SUNN.otf") format("otf"),
-}
-
 html {
     background: #2d7598;
 }
 
 nav ul li {
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     position: relative;
     left: 30px;
     font-size: 25px;
@@ -80,7 +75,7 @@ section#overlay {
     top: 0px;
     left: 0px;
     font-size: 40px;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     color: white;
     width: 0%;
     height: 100%;
@@ -112,7 +107,7 @@ section#navOverlay {
     top: 0px;
     left: 0px;
     font-size: 40px;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     color: white;
     width: 0%;
     height: 100%;
@@ -138,14 +133,14 @@ hr {
 h1 {
     text-align: center;
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     margin-top: 10px;
     font-size: 30px;
 }
 
 section#mainText p {
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     width: 350px;
     margin-left: 20px;
     font-size: 25px;
@@ -157,6 +152,6 @@ section#mainText ul {
 
 section#mainText li {
     color: white;
-    font-family: SUNN;
+    font-family: 'Amatic SC', cursive;
     margin-left: 40px;
 }
