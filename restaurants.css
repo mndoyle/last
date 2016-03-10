@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #2d7598;
+}
+
+nav ul li {
+    font-family: SUNN;
+    position: relative;
+    left: 30px;
+    font-size: 25px;
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    padding: 10px;
+}
+
+#logo {
+    position: absolute;
+    top: -10px;
+    left: -58px;
+}
+
+#swipeButton {
+    position: absolute;
+    left: -210px;
+    top: 8px;
+    visibility: visible;
+}
+
+#swipeClose {
+    position: absolute;
+    top: 24px;
+    left: 347px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+nav {
+    position: relative;
+    text-align: center;
+    background: #eff9fe;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+body a:link {
+    text-decoration: none;
+    color: white;
+}
+
+body a:visited {
+    color: white;
+}
+
+section#startButton {
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    top: -50px;
+    text-align: center;
+}
+
+section#overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 40px;
+    font-family: SUNN;
+    color: white;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, .9);
+}
+
+section#overlay p {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    visibility: hidden;
+}
+
+section#overlay nav#close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 25px;
+    border: 1px white solid;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    background-color: rgba(50, 50, 50, .9);
+}
+
+section#navOverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 40px;
+    font-family: SUNN;
+    color: white;
+    width: 0%;
+    height: 100%;
+    background-color: #dead60;
+}
+
+section#navOverlay p {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    line-height: 200%;
+    visibility: hidden;
+}
+
+hr {
+    height: 1px;
+    position: relative;
+    top: -2px;
+    border: 0px;
+    border-top: 1px solid #fff;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: SUNN;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    color: #2d7598;
+    font-family: SUNN;
+}
+
+section#sortBy {
+    background: #eff9fe;
+    width: 130px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+#triangle {
+    position: absolute;
+    top: 134.3px;
+    left: 140px;
+}
+
+section#options ul {
+    list-style-type: none;
+}
+
+section#options {
+    background: #eff9fe;
+    width: 130px;
+    padding-top: 13px;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #2d7598;
+    font-family: SUNN;
+}
+
+section#options ul li {
+    margin-left: 10px;
+    line-height: 120%;
+}
+
+section.restaurants {
+    font-family: SUNN;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+section.restaurants ul {
+    list-style-type: none;
+}
+
+section#ethnic {
+    visibility: hidden;
+    position: relative;
+    top: -575px;
+}
+
+section#ethnic h4 {
+    color: #dead64;
+}
+
+section#location {
+    visibility: hidden;
+    position: relative;
+    top: -1460px;
+}
+
+section#location h4 {
+    color: #dead64;
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mary's App</title>
+    <link rel=stylesheet media="screen and (max-width:480px)" href="main.css">
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="final.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html"><img src='images/dinnder.png' alt='logo' width='120' id='logo'></a>
+            </li>
+            <li><img src='images/swipeButton.png' alt='swipe' width='50' id='swipeButton'></li>
+        </ul>
+    </nav>
+    <section id='startButton'>
+        <img src='images/startButton.png' alt='startButton' width='250' id='startButton'>
+    </section>
+    <section id='questionOne'>
+
+        <!-- Question 1 -->
+
+        <h4>What's Your Mode of Transportation?</h4>
+        <img id='bike' src='images/bike.png' width='100'>
+        <p id='qoneAnswerOne'> Bike </p>
+        <img id='footsteps' src='images/footsteps.png' width='100'>
+        <p id='qoneAnswerTwo'> Walk </p>
+        <img id='car' src='images/car.png' width='100'>
+        <p id='qoneAnswerThree'> Car </p>
+        <img id='bus' src='images/unitrans.png' width='100'>
+        <p id='qoneAnswerFour'> Bus </p>
+    </section>
+    <section id='questionTwo'>
+
+        <!-- Question 2 -->
+
+        <h6>Where Do You Live?</h6>
+        <img id='north' src='images/north.png' width='110'>
+        <p id='qtwoAnswerOne'>North Davis</p>
+        <img id='east' src='images/east.png' width='110'>
+        <p id='qtwoAnswerTwo'>East Davis</p>
+        <img id='south' src='images/south.png' width='110'>
+        <p id='qtwoAnswerThree'>South Davis</p>
+        <img id='west' src='images/west.png' width='105'>
+        <p id='qtwoAnswerFour'>West Davis</p>
+    </section>
+
+    <!-- Question 3 -->
+
+    <section id='questionThree'>
+        <h5>How Much Money Do You Wanna Spend?</h5>
+        <img id='cheap' src='images/cheap.png' width='100'>
+        <p id='qthreeAnswerOne'>Cheapest</p>
+        <img id='inexpensive' src='images/inexpensive.png' width='111'>
+        <p id='qthreeAnswerTwo'>Pretty Inexpensive</p>
+        <img id='moderate' src='images/moderate.png' width='113'>
+        <p id='qthreeAnswerThree'>Moderate</p>
+        <img id='expensive' src='images/expensive.png' width='121'>
+        <p id='qthreeAnswerFour'>Expensive</p>
+    </section>
+
+    <!-- Question 4 -->
+
+    <section id='questionFour'>
+        <h6>Do You Have Any Dietary Restrictions?</h6>
+        <img id='vegetarian' src='images/vegetarian.png' width='100'>
+        <p id='qfourAnswerOne'>Vegetarian</p>
+        <img id='vegan' src='images/vegan.png' width='100'>
+        <p id='qfourAnswerTwo'>Vegan</p>
+        <img id='gluten' src='images/gluten.png' width='100'>
+        <p id='qfourAnswerThree'>Gluten Free</p>
+        <img id='none' src='images/none.png' width='100'>
+        <p id='qfourAnswerFour'>None</p>
+    </section>
+
+    <!-- Question 5 -->
+
+    <section id='questionFive'>
+        <h6>How Much Time Do You Have?</h6>
+        <img id='togo' src='images/togo.png' width='100'>
+        <p id='qfiveAnswerOne'>To Go</p>
+        <img id='thirty' src='images/30.png' width='100'>
+        <p id='qfiveAnswerTwo'>30 Minutes</p>
+        <img id='fortyfive' src='images/45.png' width='100'>
+        <p id='qfiveAnswerThree'>45 Minutes</p>
+        <img id='hour' src='images/60.png' width='100'>
+        <p id='qfiveAnswerFour'>60 Minutes +</p>
+    </section>
+    <section id='images'>
+
+        <!-- North None -->
+        <img src=images/restaurants/panda.jpg class='north none' width='400' id='mainnn'>
+        <img src=images/like.png width='50' class='north none' id='nn'>
+        <img src=images/dislike.png width='50' class='north none' id='dnn'>
+
+        <!-- North Veg -->
+        <img src=images/restaurants/dos.jpg class='north vegetarian' width='400'>
+        <img src=images/like.png width='50' class='north vegetarian' id='nv'>
+        <img src=images/dislike.png width='50' class='north vegetarian' id='dnv'>
+
+        <!-- West None -->
+        <img src=images/restaurants/burgers.jpg class='west none' width='400'>
+        <img src=images/like.png width='50' class='west none' id='wn'>
+        <img src=images/dislike.png width='50' class='west none' id='dwn'>
+
+        <!-- West Veg -->
+        <img src=images/restaurants/crepevile.jpg class='west vegetarian' width='400'>
+        <img src=images/like.png width='50' class='west vegetarian' id='wv'>
+        <img src=images/dislike.png width='50' class='west vegetarian' id='dwv'>
+
+        <!-- South Veg -->
+        <img src=images/restaurants/dos.jpg class='south vegetarian' width='400'>
+        <img src=images/like.png width='50' class='south vegetarian' id='sv'>
+        <img src=images/dislike.png width='50' class='south vegetarian' id='dsv'>
+
+        <!-- South None -->
+        <img src=images/restaurants/innout.jpg class='south none' width='400'>
+        <img src=images/like.png width='50' class='south none' id='sn'>
+        <img src=images/dislike.png width='50' class='south none' id='dnv'>
+
+        <!-- East None -->
+        <img src=images/restaurants/sudwerk.jpg class='east none' width='400'>
+        <img src=images/like.png width='50' class='east none' id='en'>
+        <img src=images/dislike.png width='50' class='east none' id='den'>
+
+        <!-- East Veg -->
+        <img src=images/restaurants/davis.jpg class='east vegetarian' width='400'>
+        <img src=images/like.png width='50' class='east vegetarian' id='nn'>
+        <img src=images/dislike.png width='50' class='east vegetarian' id='dev'>
+
+        <!-- Car Veg -->
+        <img src=images/restaurants/panera.jpg class='car vegetarian' width='400'>
+        <img src=images/like.png width='50' class='car vegetarian' id='cv'>
+        <img src=images/dislike.png width='50' class='car vegetarian' id='dcv'>
+
+        <!-- Car None -->
+        <img src=images/restaurants/paesanos.jpg class='car none' width='400'>
+        <img src=images/like.png width='50' class='car none' id='cn'>
+        <img src=images/dislike.png width='50' class='car none' id='dcn'>
+
+        <!-- Bus Veg -->
+        <img src=images/restaurants/pluto.jpg class='bus vegetarian' width='400'>
+        <img src=images/like.png width='50' class='bus vegetarian' id='bv'>
+        <img src=images/dislike.png width='50' class='bus vegetarian' id='dbv'>
+
+        <!-- Bus None -->
+        <img src=images/restaurants/burgers.jpg class='bus none' width='400'>
+        <img src=images/like.png width='50' class='bus none' id='bn'>
+        <img src=images/dislike.png width='50' class='bus none' id='dbn'>
+    </section>
+
+    <!-- Second North -->
+    <section id='secondImagesNN'>
+        <img src=images/restaurants/mexican.jpg width='400' id='mexican'>
+        <img src=images/like.png width='50' id='snn'>
+        <img src=images/dislike.png width='50' id='sdnn'>
+    </section>
+
+    <!-- Second West -->
+    <section id='secondImagesWest'>
+        <img src=images/restaurants/toro.jpg width='400' id='toro'>
+        <img src=images/like.png width='50' id='swest'>
+        <img src=images/dislike.png width='50' id='sdwest'>
+    </section>
+
+    <!-- Second South -->
+
+    <section id='secondImagesSouth'>
+        <img src=images/restaurants/davis.jpg width='400' id='toro'>
+        <img src=images/like.png width='50' id='ssouth'>
+        <img src=images/dislike.png width='50' id='sdsouth'>
+    </section>
+
+    <!-- Second Car -->
+    <section id='secondCar'>
+        <img src=images/restaurants/crepevile.jpg width='400' id='crepeville'>
+        <img src=images/like.png width='50' id='scar'>
+        <img src=images/dislike.png width='50' id='sdcar'>
+    </section>
+
+
+    <!-- Third North -->
+    <section id='thirdImagesNN'>
+        <img src=images/restaurants/jacks.jpg width='400' id='jacks'>
+        <img src=images/like.png width='50' id='tnn'>
+        <img src=images/dislike.png width='50' id='tdnn'>
+    </section>
+
+    <!-- Third West -->
+    <section id='thirdImagesWest'>
+        <img src=images/restaurants/pluto.jpg width='400' id='salad'>
+        <img src=images/like.png width='50' id='twest'>
+        <img src=images/dislike.png width='50' id='tdwest'>
+    </section>
+
+    <!-- Third South -->
+    <section id='thirdImagesSouth'>
+        <img src=images/restaurants/thai.jpg width='400' id='canteen'>
+        <img src=images/like.png width='50' id='tsouth'>
+        <img src=images/dislike.png width='50' id='tdsouth'>
+    </section>
+
+    <!-- Third Car -->
+    <section id='thirdCar'>
+        <img src=images/restaurants/thai.jpg width='400' id='thai'>
+        <img src=images/like.png width='50' id='tcar'>
+        <img src=images/dislike.png width='50' id='tdcar'>
+    </section>
+
+    <!-- Results -->
+    <section id='northResults'>
+        <h6> Here Are Your Top Choices </h6>
+        <p> 1. Taqueria Guadalajara</p>
+        <br>
+        <p> 2. Dos Coyotes</p>
+        <br>
+        <p> 3. Jack's Urban Eats</p>
+        <a href="index.html"><img src='images/try.png' width='150' class='try'></a>
+    </section>
+    <section id='southResults'>
+        <h6> Here Are Your Top Choices </h6>
+        <p> 1. Davis Taqueria</p>
+        <br>
+        <p> 2. In N Out</p>
+        <br>
+        <p> 3. Dos Coyotes</p>
+        <a href="index.html"><img src='images/try.png' width='150' class='try'></a>
+    </section>
+    <section id='westResults'>
+        <h6> Here Are Your Top Choices </h6>
+        <p> 1. Crepeville</p>
+        <br>
+        <p> 2. Burgers and Brew</p>
+        <br>
+        <p> 3. Plutos</p>
+        <a href="index.html"><img src='images/try.png' width='150' class='try'></a>
+    </section>
+
+    <section id='carResults'>
+        <h6> Here Are Your Top Choices </h6>
+        <p> 1. Burgers and Brew</p>
+        <br>
+        <p> 2. Crepeville</p>
+        <br>
+        <p> 3. El Toro </p>
+        <a href="index.html"><img src='images/try.png' width='150' class='try'></a>
+    </section>
+
+    <footer>
+        <img src='images/helper.png' alt='helper' width='70' id='helper'>
+    </footer>
+    <section id='navOverlay'>
+        <p><a href='index.html'>Home</a></p>
+        <hr>
+        <p><a href='about.html'>About</a></p>
+        <hr>
+        <p><a href='restaurants.html'>Restaurants</a></p>
+        <hr>
+        <p><a href='deals.html'>Davis Deals</a></p>
+        <hr>
+    </section>
+    <section id='navClose'>
+        <img src='images/swipeButton.png' alt='swipe' width='50' id='swipeClose'>
+    </section>
+    <section id='overlay'>
+        <p>Hello! Hamburger Helper here! One you click "What's for Dinner" a series of questions will pop up! Click on the answer that best represents you! Make sure you choose the right one, because you can't go back! To start over, click on the Dinnder button at the top. Have fun! And figure out what's for dinner!</p>
+        <nav id="close">x</nav>
+    </section>
+</body>

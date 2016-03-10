@@ -1,0 +1,824 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #2d7598;
+}
+
+nav ul li {
+    font-family: SUNN;
+    position: relative;
+    left: 30px;
+    font-size: 25px;
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    padding: 10px;
+}
+
+#logo {
+    position: absolute;
+    top: -10px;
+    left: -58px;
+}
+
+#swipeButton {
+    position: absolute;
+    left: -210px;
+    top: 8px;
+    visibility: visible;
+}
+
+#swipeClose {
+    position: absolute;
+    top: 24px;
+    left: 347px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+nav {
+    position: relative;
+    text-align: center;
+    background: #eff9fe;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+body a:link {
+    text-decoration: none;
+    color: white;
+}
+
+body a:visited {
+    color: white;
+}
+
+section#startButton {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    visibility: visible;
+}
+
+footer {
+    position: relative;
+    top: -400px;
+    text-align: center;
+}
+
+section#overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    font-family: SUNN;
+    color: white;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, .9);
+}
+
+section#overlay p {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    visibility: hidden;
+}
+
+section#overlay nav#close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 25px;
+    border: 1px white solid;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    background-color: rgba(50, 50, 50, .9);
+}
+
+section#navOverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 40px;
+    font-family: SUNN;
+    color: white;
+    width: 0%;
+    height: 100%;
+    background-color: #dead60;
+}
+
+section#navOverlay p {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    line-height: 200%;
+    visibility: hidden;
+}
+
+hr {
+    height: 1px;
+    position: relative;
+    top: -2px;
+    border: 0px;
+    border-top: 1px solid #fff;
+}
+
+h4 {
+    position: absolute;
+    top: 110px;
+    font-family: SUNN;
+    font-size: 30px;
+    color: white;
+    left: 80px;
+}
+
+h5 {
+    position: absolute;
+    top: 110px;
+    font-family: SUNN;
+    font-size: 30px;
+    color: white;
+    left: 80px;
+}
+
+section#questionOne p {
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+}
+
+section#questionTwo h6 {
+    color: white;
+    position: absolute;
+    font-family: SUNN;
+    font-size: 30px;
+    left: 140px;
+    top: 110px;
+}
+
+#bike {
+    position: absolute;
+    top: 170px;
+    left: 80px;
+}
+
+#bus {
+    position: absolute;
+    top: 320px;
+    left: 80px;
+}
+
+#footsteps {
+    position: absolute;
+    top: 160px;
+    left: 210px;
+}
+
+#car {
+    position: absolute;
+    top: 320px;
+    left: 210px;
+}
+
+#qoneAnswerOne {
+    position: absolute;
+    top: 280px;
+    left: 120px;
+}
+
+#qoneAnswerTwo {
+    position: absolute;
+    top: 280px;
+    left: 245px;
+}
+
+#qoneAnswerThree {
+    position: absolute;
+    top: 430px;
+    left: 250px;
+}
+
+#qoneAnswerFour {
+    position: absolute;
+    top: 430px;
+    left: 120px;
+}
+
+section#questionTwo p {
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+    visibility: hidden;
+}
+
+section#questionTwo img {
+    visibility: hidden;
+}
+
+img#north {
+    position: absolute;
+    top: 170px;
+    left: 80px;
+}
+
+img#east {
+    position: absolute;
+    top: 170px;
+    left: 210px;
+}
+
+img#south {
+    position: absolute;
+    top: 320px;
+    left: 80px;
+}
+
+img#west {
+    position: absolute;
+    top: 320px;
+    left: 207px;
+}
+
+#qtwoAnswerOne {
+    position: absolute;
+    top: 280px;
+    left: 100px;
+}
+
+#qtwoAnswerTwo {
+    position: absolute;
+    top: 280px;
+    left: 235px;
+}
+
+#qtwoAnswerFour {
+    position: absolute;
+    top: 430px;
+    left: 230px;
+}
+
+#qtwoAnswerThree {
+    position: absolute;
+    top: 430px;
+    left: 100px;
+}
+
+section#questionThree p {
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+    visibility: hidden;
+}
+
+section#questionThree img {
+    visibility: hidden;
+}
+
+img#cheap {
+    position: absolute;
+    top: 170px;
+    left: 80px;
+}
+
+img#inexpensive {
+    position: absolute;
+    top: 170px;
+    left: 210px;
+}
+
+img#moderate {
+    position: absolute;
+    top: 320px;
+    left: 80px;
+}
+
+img#expensive {
+    position: absolute;
+    top: 320px;
+    left: 203px;
+}
+
+#qthreeAnswerOne {
+    position: absolute;
+    top: 280px;
+    left: 100px;
+}
+
+#qthreeAnswerTwo {
+    position: absolute;
+    top: 280px;
+    left: 210px;
+}
+
+#qthreeAnswerFour {
+    position: absolute;
+    top: 430px;
+    left: 235px;
+}
+
+#qthreeAnswerThree {
+    position: absolute;
+    top: 430px;
+    left: 100px;
+}
+
+section#questionFour h6 {
+    color: white;
+    position: absolute;
+    font-family: SUNN;
+    font-size: 30px;
+    left: 80px;
+    top: 110px;
+    visibility: hidden;
+}
+
+section#questionFour p {
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+    visibility: hidden;
+}
+
+section#questionFour img {
+    visibility: hidden;
+}
+
+img#vegetarian {
+    position: absolute;
+    top: 170px;
+    left: 80px;
+}
+
+img#vegan {
+    position: absolute;
+    top: 170px;
+    left: 210px;
+}
+
+img#gluten {
+    position: absolute;
+    top: 320px;
+    left: 80px;
+}
+
+img#none {
+    position: absolute;
+    top: 320px;
+    left: 210px;
+}
+
+#qfourAnswerOne {
+    position: absolute;
+    top: 280px;
+    left: 100px;
+}
+
+#qfourAnswerTwo {
+    position: absolute;
+    top: 280px;
+    left: 243px;
+}
+
+#qfourAnswerFour {
+    position: absolute;
+    top: 430px;
+    left: 245px;
+}
+
+#qfourAnswerThree {
+    position: absolute;
+    top: 430px;
+    left: 96px;
+}
+
+section#questionFive h6 {
+    color: white;
+    position: absolute;
+    font-family: SUNN;
+    font-size: 30px;
+    left: 105px;
+    top: 110px;
+    visibility: hidden;
+}
+
+section#questionFive p {
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+    visibility: hidden;
+}
+
+img#togo {
+    position: absolute;
+    top: 170px;
+    left: 80px;
+}
+
+img#thirty {
+    position: absolute;
+    top: 170px;
+    left: 210px;
+}
+
+img#fortyfive {
+    position: absolute;
+    top: 320px;
+    left: 80px;
+}
+
+img#hour {
+    position: absolute;
+    top: 320px;
+    left: 210px;
+}
+
+#qfiveAnswerOne {
+    position: absolute;
+    top: 280px;
+    left: 113px;
+}
+
+#qfiveAnswerTwo {
+    position: absolute;
+    top: 280px;
+    left: 231px;
+}
+
+#qfiveAnswerFour {
+    position: absolute;
+    top: 430px;
+    left: 225px;
+}
+
+#qfiveAnswerThree {
+    position: absolute;
+    top: 430px;
+    left: 106px;
+}
+
+section#questionFive img {
+    visibility: hidden;
+}
+
+section#pictures p {
+    visibility: hidden;
+}
+
+section#pictures {
+    visibility: hidden;
+}
+
+section#picture {
+    margin-top: -190px;
+    background-color: #222;
+    background-image: url(images/restaurants/burgers.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+section#like p {
+    visibility: hidden;
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+}
+
+p#yes {
+    position: absolute;
+    top: 420px;
+    left: 340px;
+}
+
+p#no {
+    position: absolute;
+    top: 420px;
+    left: 40px;
+}
+
+section#picture2 {
+    margin-top: -250px;
+    background-color: #222;
+    background-image: url(images/restaurants/thai.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+section#like2 p {
+    visibility: hidden;
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+}
+
+p#yes2 {
+    position: absolute;
+    top: 420px;
+    left: 340px;
+}
+
+p#no2 {
+    position: absolute;
+    top: 420px;
+    left: 40px;
+}
+
+section#picture3 {
+    margin-top: -255px;
+    background-color: #222;
+    background-image: url(images/restaurants/burgers.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+section#like3 p {
+    visibility: hidden;
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+}
+
+p#yes3 {
+    position: absolute;
+    top: 420px;
+    left: 340px;
+}
+
+p#no3 {
+    position: absolute;
+    top: 420px;
+    left: 40px;
+}
+
+#results {
+    visibility: hidden;
+}
+
+section#results h3 {
+    color: white;
+    position: absolute;
+    font-family: SUNN;
+    font-size: 30px;
+    left: 140px;
+    top: 110px;
+}
+
+section#results ol {
+    color: white;
+    position: absolute;
+    font-family: SUNN;
+    font-size: 25px;
+    top: 170px;
+    left: 50px;
+    line-height: 150%;
+}
+
+img#star {
+    position: absolute;
+    top: 177px;
+    left: 100px;
+}
+
+section#deal {
+    visibility: hidden;
+}
+
+section#deal p {
+    color: white;
+    position: absolute;
+    background: #dead64;
+    font-family: SUNN;
+    font-size: 15px;
+    padding: 10px;
+    top: 170px;
+    left: 170px;
+    width: 100px;
+}
+
+section#images {
+    visibility: hidden;
+    position: absolute;
+    top: 130px;
+}
+
+img#nn,
+img#nv,
+img#wn,
+img#wv,
+img#sv,
+img#sn,
+img#en,
+img#nn,
+img#cv,
+img#cn,
+img#bv,
+img#bn,
+img#snn,
+img#tnn,
+img#swest,
+img#twest,
+img#ssouth,
+img#tsouth,
+img#scar,
+img#tcar {
+    position: absolute;
+    top: 315px;
+    left: 320px;
+}
+
+img#dnn,
+img#dnv,
+img#dwn,
+img#dwv,
+img#dsv,
+img#dnv,
+img#den,
+img#dev,
+img#dcv,
+img#dcn,
+img#dbv,
+img#dbn,
+img#sdnn,
+img#tdnn,
+img#sdwest,
+img#tdwest,
+img#sdsouth,
+img#tdsouth,
+img#sdcar,
+img#tdcar {
+    position: absolute;
+    top: 315px;
+    left: 30px;
+}
+
+section#secondImagesNN {
+    position: absolute;
+    top: 130px;
+}
+
+section#secondImagesNN {
+    visibility: hidden;
+}
+
+section#thirdImagesNN {
+    position: absolute;
+    top: 130px;
+}
+
+section#thirdImagesNN {
+    visibility: hidden;
+}
+
+section#secondImagesWest {
+    position: absolute;
+    top: 130px;
+}
+
+section#secondImagesWest {
+    visibility: hidden;
+}
+
+section#thirdImagesWest {
+    position: absolute;
+    top: 130px;
+}
+
+section#thirdImagesWest {
+    visibility: hidden;
+}
+
+section#secondImagesSouth {
+    position: absolute;
+    top: 130px;
+}
+
+section#secondImagesSouth {
+    visibility: hidden;
+}
+
+section#thirdImagesSouth {
+    position: absolute;
+    top: 130px;
+}
+
+section#thirdImagesSouth {
+    visibility: hidden;
+}
+
+section#secondCar {
+    position: absolute;
+    top: 130px;
+}
+
+section#secondCar {
+    visibility: hidden;
+}
+
+section#thirdCar {
+    position: absolute;
+    top: 130px;
+}
+
+section#thirdCar {
+    visibility: hidden;
+}
+
+section#northResults h6 {
+    color: white;
+    position: absolute;
+    font-family: SUNN;
+    font-size: 30px;
+    left: 105px;
+    top: 110px;
+    visibility: hidden;
+}
+
+section#northResults p {
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+    visibility: hidden;
+    position: relative;
+    left: 50px;
+    top: -170px;
+}
+
+section#southResults h6 {
+    color: white;
+    position: absolute;
+    font-family: SUNN;
+    font-size: 30px;
+    left: 105px;
+    top: 110px;
+    visibility: hidden;
+}
+
+section#southResults p {
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+    visibility: hidden;
+    position: relative;
+    left: 50px;
+    top: -280px;
+}
+
+section#westResults h6 {
+    color: white;
+    position: absolute;
+    font-family: SUNN;
+    font-size: 30px;
+    left: 105px;
+    top: 110px;
+    visibility: hidden;
+}
+
+section#westResults p {
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+    visibility: hidden;
+    position: relative;
+    left: 50px;
+    top: -405px;
+}
+
+section#carResults h6 {
+    color: white;
+    position: absolute;
+    font-family: SUNN;
+    font-size: 30px;
+    left: 105px;
+    top: 110px;
+    visibility: hidden;
+}
+
+section#carResults p {
+    color: white;
+    font-family: SUNN;
+    font-size: 25px;
+    visibility: hidden;
+    position: relative;
+    left: 50px;
+    top: -525px;
+}
+
+.try {
+    visibility: hidden;
+    position: absolute;
+    top: 400px;
+    left: 120px;
+}
